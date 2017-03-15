@@ -16,16 +16,20 @@ a:hover{
 
 #Container{
   
-   width:1000px;
-   min-height:600px;
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
       
 }
 
 #TopNav{
-	
+	min-height:300;
+	width:200;
+	background-color:red;
 }
 
 #CenterScr{
+
 }
 	
 #TexContainer{
@@ -36,6 +40,38 @@ a:hover{
 
 }
    	 
-#"Footer"[
+#Footer{
 
+}
+
+#LogoScr{
+	
+}
+
+#LogoDiv{
+	float:left;
+}
+
+#TitleDiv{
+	clear:both;
+}
+
+.przycisk{
+	float:left;
+	background-color:#2F0088;
+    height:20px;
+	width:40px;
+	padding:10px;
+	border:solid;
+	
+	
+	/*height:20px;
+	min-width:40px;
+	opacity:0.8;*/
+    	
+}
+.przycisk:hover{
+    background-color:#2C0CAC;
+	cursor:pointer;
+	
 }
